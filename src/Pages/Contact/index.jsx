@@ -67,7 +67,7 @@ export default function Contact() {
         >
           <Button
             href="https://www.linkedin.com/in/pym-sbnchi/"
-            target="blank"
+            target="_blank"
             sx={{ textTransform: "none", color: "darkgray", fontSize: "20px" }}
             startIcon={<LinkedInIcon />}
           >
@@ -81,7 +81,7 @@ export default function Contact() {
         >
           <Button
             href="https://t.me/pym_sbnchi"
-            target="blank"
+            target="_blank"
             sx={{ textTransform: "none", color: "darkgray", fontSize: "20px" }}
             startIcon={<TelegramIcon />}
           >
@@ -95,7 +95,7 @@ export default function Contact() {
         >
           <Button
             href="https://www.instagram.com/pym_sbnchi?igsh=MzBqZGQyNWN0ODMy"
-            target="blank"
+            target="_blank"
             sx={{ textTransform: "none", color: "darkgray", fontSize: "20px" }}
             startIcon={<InstagramIcon />}
           >
@@ -109,7 +109,7 @@ export default function Contact() {
         >
           <Button
             href="https://wa.me/qr/Z5S65FQFBGNYL1"
-            target="blank"
+            target="_blank"
             sx={{ textTransform: "none", color: "darkgray", fontSize: "20px" }}
             startIcon={<WhatsAppIcon />}
           >
