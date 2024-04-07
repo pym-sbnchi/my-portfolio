@@ -10,7 +10,7 @@ export default function Navbar() {
         sx={{
           marginTop: "70px",
           marginLeft: "20px",
-          width:'10%',
+          width: "10%",
         }}
       >
         <ul
@@ -94,6 +94,8 @@ export default function Navbar() {
           </li>
           <li>
             <Button
+              href="https://drive.google.com/file/d/1FXSKW6aF2kDydeyggwdFpK3AT8R6AnjO/view?usp=sharing"
+              target="blank"
               variant="text"
               endIcon={<DownloadIcon />}
               sx={{

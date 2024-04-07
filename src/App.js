@@ -6,10 +6,11 @@ import About from "./Pages/About";
 import Tools from "./Pages/Tools";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
+import { Box } from "@mui/material";
 
 function App() {
   return (
-    <>
+    <Box sx={{display:'flex', flexDirection:'row'}}>
       <Navbar />
       <BrowserRouter>
         <Routes>
@@ -20,7 +21,7 @@ function App() {
           <Route index path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
-    </>
+    </Box>
   );
 }
 

@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import { motion } from "framer-motion";
 import React from "react";
 
 export default function Home() {
@@ -23,8 +24,20 @@ export default function Home() {
             textTransform: "uppercase",
           }}
         >
-          <p>Front-end developer</p>
-          <p>Payam Saboonchi</p>
+          <motion.p
+            initial={{ y: "-100vw" }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1.5 }}
+          >
+            Front-end developer
+          </motion.p>
+          <motion.p
+            initial={{ y: "-100vw" }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1.5 }}
+          >
+            Payam Saboonchi
+          </motion.p>
         </Box>
         <Box
           sx={{
