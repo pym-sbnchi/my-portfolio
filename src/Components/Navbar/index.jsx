@@ -95,7 +95,7 @@ export default function Navbar() {
           <li>
             <Button
               href="https://drive.google.com/file/d/1FXSKW6aF2kDydeyggwdFpK3AT8R6AnjO/view?usp=sharing"
-              target="blank"
+              target="_blank"
               variant="text"
               endIcon={<DownloadIcon />}
               sx={{

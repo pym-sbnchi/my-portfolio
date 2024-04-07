@@ -44,9 +44,9 @@ export default function About() {
               Even though I studied veterinary medicine and advanced to the
               doctorate level, my interest in this profession and work is so
               great that it made me completely step into the path of programming
-              and learn website design at the first stage. This is definitely
-              the first step and I have a long way to go. But I am sure that
-              this interest will help me achieve all the goals I have in mind.
+              and learn website design at the first stage. This is the first
+              step and I have a long way to go. But I am sure that this interest
+              will help me achieve all the goals I have in mind.
             </Typography>
           </motion.div>
         </Box>
