@@ -18,7 +18,7 @@ export default function Work() {
           color: "GrayText",
         }}
       >
-        Work
+        Works
       </Typography>
       
     </Box>

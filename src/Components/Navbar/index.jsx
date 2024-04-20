@@ -75,7 +75,7 @@ export default function Navbar() {
                 color: "inherit",
               }}
             >
-              Work
+              Works
             </Button>
           </li>
           <li>
