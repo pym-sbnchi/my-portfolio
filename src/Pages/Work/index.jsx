@@ -18,9 +18,12 @@ export default function Work() {
           color: "GrayText",
         }}
       >
-        Works
+        Portfolio
       </Typography>
-      
+      <Box>
+        
+      </Box>
     </Box>
   )
 }
+

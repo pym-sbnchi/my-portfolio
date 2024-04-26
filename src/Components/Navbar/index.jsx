@@ -1,99 +1,157 @@
-import React from "react";
-import { Box, Button } from "@mui/material";
+import React, { useState } from "react";
+import { Box, ListItemButton, List, ListItem } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import "./index.css";
 
 export default function Navbar() {
+
+  const [index, setIndex] = useState();
+
   return (
     <>
       <Box
         sx={{
           marginTop: "70px",
-          marginLeft: "20px",
+          marginLeft: "60px",
           width: "10%",
+          height: "80vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
         }}
       >
-        <ul
+        <List
           style={{
             listStyleType: "none",
             display: "flex",
             flexDirection: "column",
-            gap: 50,
+            gap: 40,
             color: "white",
           }}
         >
-          <li>
-            <Button
+          <ListItem>
+            <ListItemButton
+              sx={
+                index === 0
+                  ? {
+                      color: "white",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                      textTransform: "none",
+                      backgroundColor: "transparent",
+                    }
+                  : {
+                      color: "#ffffff66",
+                      fontWeight: "light",
+                      fontSize: "large",
+                      textTransform: "none",
+                    }
+              }
+              onClick={() => setIndex(0)}
               variant="text"
               href="/"
-              sx={{
-                fontSize: "large",
-                fontWeight: "light",
-                textTransform: "none",
-                color: "inherit",
-              }}
             >
               Home
-            </Button>
-          </li>
-          <li>
-            <Button
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton
+              sx={
+                index === 1
+                  ? {
+                      color: "white",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                      textTransform: "none",
+                    }
+                  : {
+                      color: "#ffffff66",
+                      fontWeight: "light",
+                      fontSize: "large",
+                      textTransform: "none",
+                    }
+              }
+              onClick={() => setIndex(1)}
               variant="text"
               href="/about"
-              sx={{
-                fontSize: "large",
-                fontWeight: "light",
-                textTransform: "none",
-                color: "inherit",
-              }}
             >
               About
-            </Button>
-          </li>
-          <li>
-            <Button
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton
+              sx={
+                index === 2
+                  ? {
+                      color: "white",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                      textTransform: "none",
+                    }
+                  : {
+                      color: "#ffffff66",
+                      fontWeight: "light",
+                      fontSize: "large",
+                      textTransform: "none",
+                    }
+              }
+              onClick={() => setIndex(2)}
               variant="text"
               href="/tools"
-              sx={{
-                fontSize: "large",
-                fontWeight: "light",
-                textTransform: "none",
-                color: "inherit",
-              }}
             >
-              Tools
-            </Button>
-          </li>
-          <li>
-            <Button
+              Expertise
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton
+              sx={
+                index === 3
+                  ? {
+                      color: "white",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                      textTransform: "none",
+                    }
+                  : {
+                      color: "#ffffff66",
+                      fontWeight: "light",
+                      fontSize: "large",
+                      textTransform: "none",
+                    }
+              }
+              onClick={() => setIndex(3)}
               variant="text"
               href="/work"
-              sx={{
-                fontSize: "large",
-                fontWeight: "light",
-                textTransform: "none",
-                color: "inherit",
-              }}
             >
-              Works
-            </Button>
-          </li>
-          <li>
-            <Button
+              Portfolio
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton
+              sx={
+                index === 4
+                  ? {
+                      color: "white",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                      textTransform: "none",
+                    }
+                  : {
+                      color: "#ffffff66",
+                      fontWeight: "light",
+                      fontSize: "large",
+                      textTransform: "none",
+                    }
+              }
+              onClick={() => setIndex(4)}
               variant="text"
               href="/contact"
-              sx={{
-                fontSize: "large",
-                fontWeight: "light",
-                textTransform: "none",
-                color: "inherit",
-              }}
             >
               Contact
-            </Button>
-          </li>
-          <li>
-            <Button
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton
               href="https://drive.google.com/file/d/1FXSKW6aF2kDydeyggwdFpK3AT8R6AnjO/view?usp=sharing"
               target="_blank"
               variant="text"
@@ -106,9 +164,9 @@ export default function Navbar() {
               }}
             >
               Resume
-            </Button>
-          </li>
-        </ul>
+            </ListItemButton>
+          </ListItem>
+        </List>
       </Box>
     </>
   );

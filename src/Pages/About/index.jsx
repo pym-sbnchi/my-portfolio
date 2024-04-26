@@ -10,7 +10,7 @@ export default function About() {
         display: "flex",
         flexDirection: "column",
         paddingTop: "50px",
-        paddingLeft: "150px",
+        // paddingLeft: "150px",
       }}
     >
       <Typography

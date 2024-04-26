@@ -13,7 +13,7 @@ export default function Tools() {
         flexDirection: "column",
         gap: 10,
         paddingTop: "50px",
-        paddingLeft: "150px",
+        // paddingLeft: "150px",
       }}
     >
       <Typography
@@ -22,7 +22,7 @@ export default function Tools() {
           color: "GrayText",
         }}
       >
-        Tools
+        My Expertise
       </Typography>
       <Box
         sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: 9 }}
