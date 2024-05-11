@@ -1,8 +1,8 @@
 {
-  "homepage": "https://pym-sbnchi.github.io/my-portfolio/",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pym-sbnchi.github.io/my-portfolio",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@emotion/react": "^11.11.4",
